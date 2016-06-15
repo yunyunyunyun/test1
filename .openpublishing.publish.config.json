@@ -1,12 +1,11 @@
 {
-  "build_entry_point": "",
   "need_generate_pdf": false,
+  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "test1",
-      "build_source_folder": null,
-      "build_output_subfolder": "test1",
-      "build_entry_point": "op.ps1",
+      "docset_name": "vvvvv",
+      "build_source_folder": "vvvvv",
+      "build_output_subfolder": "vvvvv",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": true,
@@ -14,10 +13,12 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      }
+      },
+      "build_entry_point": "op"
     }
   ],
   "notification_subscribers": [
     "lyn@microsoft.com"
-  ]
+  ],
+  "skip_source_output_uploading": false
 }
